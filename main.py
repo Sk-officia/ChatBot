@@ -7,10 +7,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
+API_ID = os.environ.get("API_ID", "27973378") 
+API_HASH = os.environ.get("API_HASH", "d31b30d98fe5be62361fe570dbc31366") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6150645815:AAHPm_5qwd6c2ATUnhwEpM6aD5tMGGmogcc") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://chatbot:chatbot@cluster0.mdasatk.mongodb.net/?retryWrites=true&w=majority")
 
 
 bot = Client(
